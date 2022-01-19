@@ -16,6 +16,8 @@
 		84B330AF2798447600410651 /* UIViewAsXibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B330AE2798447600410651 /* UIViewAsXibTests.swift */; };
 		84B330B92798447600410651 /* UIViewAsXibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B330B82798447600410651 /* UIViewAsXibUITests.swift */; };
 		84B330BB2798447600410651 /* UIViewAsXibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B330BA2798447600410651 /* UIViewAsXibUITestsLaunchTests.swift */; };
+		84B330CA279844ED00410651 /* MyOwnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B330C9279844ED00410651 /* MyOwnView.swift */; };
+		84B330CC279844FB00410651 /* MyOwnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B330CB279844FB00410651 /* MyOwnView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		84B330B42798447600410651 /* UIViewAsXibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewAsXibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B330B82798447600410651 /* UIViewAsXibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAsXibUITests.swift; sourceTree = "<group>"; };
 		84B330BA2798447600410651 /* UIViewAsXibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAsXibUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B330C9279844ED00410651 /* MyOwnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOwnView.swift; sourceTree = "<group>"; };
+		84B330CB279844FB00410651 /* MyOwnView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOwnView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				84B330A02798447500410651 /* Assets.xcassets */,
 				84B330A22798447500410651 /* LaunchScreen.storyboard */,
 				84B330A52798447500410651 /* Info.plist */,
+				84B330C9279844ED00410651 /* MyOwnView.swift */,
+				84B330CB279844FB00410651 /* MyOwnView.xib */,
 			);
 			path = UIViewAsXib;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				84B330A42798447500410651 /* LaunchScreen.storyboard in Resources */,
 				84B330A12798447500410651 /* Assets.xcassets in Resources */,
 				84B3309F2798447100410651 /* Main.storyboard in Resources */,
+				84B330CC279844FB00410651 /* MyOwnView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 				84B3309C2798447100410651 /* ViewController.swift in Sources */,
 				84B330982798447100410651 /* AppDelegate.swift in Sources */,
 				84B3309A2798447100410651 /* SceneDelegate.swift in Sources */,
+				84B330CA279844ED00410651 /* MyOwnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

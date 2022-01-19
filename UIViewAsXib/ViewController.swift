@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ownView: MyOwnView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        ownView.lbl.text = "Muti best programmer in his street"
+        ownView.containerView.backgroundColor = .green
     }
 
 
